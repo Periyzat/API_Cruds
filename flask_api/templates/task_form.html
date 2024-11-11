@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}{{ 'Edit Task' if task else 'Add New Task' }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ 'Edit Task' if task else 'Add New Task' }}</h2>
+    <form method="post">
+        <div class="mb-3">
+            <label for="task" class="form-label">Task</label>
+            <input type="text" class="form-control" name="task" value="{{ task.task if task else '' }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <input type="text" class="form-control" name="description" value="{{ task.description if task else '' }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="due_date" class="form-label">Due Date</label>
+            <input type="date" class="form-control" name="due_date" value="{{ task.due_date if task else '' }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="priority" class="form-label">Priority</label>
+            <select class="form-control" name="priority" required>
+                <option value="High" {% if task and task.priority == "High" %}selected{% endif %}>High</option>
+                <option value="Medium" {% if task and task.priority == "Medium" %}selected{% endif %}>Medium</option>
+                <option value="Low" {% if task and task.priority == "Low" %}selected{% endif %}>Low</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">{{ 'Save Changes' if task else 'Add Task' }}</button>
+        <a href="{{ url_for('task_list') }}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}
