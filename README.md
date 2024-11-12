@@ -2,10 +2,10 @@
 This is a simple application using Django, Fast API, and Flask to manage a list of "To-do tasks." It demonstrates basic CRUD (Create, Read, Update, Delete) operations with Bootstrap 5 styling.
 
 ## Features
-- List all tasks in a table format.
-- Add new tasks using a form on a separate page.
-- Edit and update existing tasks.
-- Delete tasks with a confirmation alert.
+- List alltasks in a table format.
+- Add new books using a form on a separate page.
+- Edit and update existing books.
+- Delete books with a confirmation alert.
 - Styled with Bootstrap 5 for a responsive and clean UI.
 ## Requirements
 
@@ -60,4 +60,6 @@ These project uses **SQLite** as the default database. SQLite is a lightweight, 
 - book_list.html: Displays the list of books and an "Add Book" button.
 - book_form.html: Used for adding and editing books.
 - books.db: The SQLite database file where all data is stored (generated after running the app).
+## Find a bug?
+If you found an issue or would like to submit an improvement to this project, please submit it using the issue tab above. If you would like to submit a PR with a fix, reference the issue you created! 
 ## Licence
