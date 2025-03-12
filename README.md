@@ -53,17 +53,11 @@ This project uses**SQLite** as the default database, which is lightweight and fi
 - **Fast API:** Creates an SQLite database file `(tasks.db)` when you run the application.
 - **Flask:** Automatically generates an SQLite database `(db.sqlite3)` when you run the application.
  ## Running the Application
-**Django:** 
+**Django:** `python manage.py runserver`
 
-`python manage.py runserver`
+**Fast API:** `uvicorn main:app --reload`
 
-**Fast API:** 
-
-`uvicorn main:app --reload`
-
-**Flask:**
-
-`flask run`
+**Flask:** `flask run`
 ## Usage
 - Open the browser and navigate to the corresponding localhost address.
 - Use the interface to create, update, and delete tasks.
