@@ -25,8 +25,7 @@ A simple task management application using Django, FastAPI, and Flask to demonst
 - **Prerequisites**
 - Ensure you have **Python 3.x** installed on your system.
 - **Clone the repository**
-   git clone https://github.com/yourusername/todo-tasks-app.git
-   cd todo-tasks-app
+   git clone https://github.com/Periyzat/API_Cruds.git
 - **Set up a virtual environment**
    python -m venv .venv
    source .venv/bin/activate (On Windows use .venv\Scripts\activate)
