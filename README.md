@@ -3,47 +3,59 @@ This is a simple application using Django, Fast API, and Flask to manage a list 
 
 ## Features
 - List all tasks in a table format.
-- Add new books using a form on a separate page.
-- Edit and update existing books.
-- Delete books with a confirmation alert.
+- Add new tasks using a form on a separate page.
+- Edit and update existing tasks.
+- Delete tasks with a confirmation alert.
 - Styled with Bootstrap 5 for a responsive and clean UI.
 ## Requirements
-
+- Python 3.x
+  **Django:**
+- Django
+- django-bootstrap-v5
+  **Fast API:**
+- FastAPI
+- Uvicorn
+- SQLAlchemy
+- Jinja2 (for HTML templating)
+  **Flask:** 
+- Flask
+- Flask-SQLAlchemy
+- Bootstrap 5 (via CDN)
 ## Database
 These project uses **SQLite** as the default database. SQLite is a lightweight, file-based database suitable for development and testing environments.
-**Django** sets up automatically when you run migrations. By default, Django creates an SQLite database file named db.sqlite3 in the project directory.
-**Fast API** sets up automatically when you run the application. By default, a file named tasks.db is created in your project directory to store data.
-**Flask** sets up automatically when you run the application. By default, a file named db.sqlite3 is created in your project directory to store data.
+- **Django** sets up automatically when you run migrations. By default, Django creates an SQLite database file named db.sqlite3 in the project directory.
+- **Fast API** sets up automatically when you run the application. By default, a file named tasks.db is created in your project directory to store data.
+- **Flask** sets up automatically when you run the application. By default, a file named db.sqlite3 is created in your project directory to store data.
 
 ## Installation
-**1. Clone the repository:**
+- **1. Clone the repository:**
    **Django:** 
    **Fast API:** 
    **Flask:** 
-**2. Set up a virtual environment and activate it:**
+- **2. Set up a virtual environment and activate it:**
    python -m venv .venv
    source .venv/bin/activate (On Windows use .venv\Scripts\activate)
-**3. Install the dependencies:**
+- **3. Install the dependencies:**
     **Django:**
      pip install django django-bootstrap-v5
     **Fast API:** 
      pip install fastapi uvicorn sqlalchemy jinja2
     **Flask:** 
      pip install flask flask-sqlalchemy
-**5. Set up the database:**
+- **5. Set up the database:**
     **Django:**
      python manage.py makemigrations
      python manage.py migrate
     **Fast API:** 
     **Flask:** 
-**6. Run the development server:
+- **6. Run the development server:
     **Django:** 
      python manage.py runserver
     **Fast API:** 
      uvicorn main:app --reload
     **Flask:**
      flask run
-7. Access the app:**
+- 7. Access the app:**
    Open your browser and go to http://127.0.0.1:8000/.
 ## Usage
  - View Books: The homepage displays a list of all books in a table.
