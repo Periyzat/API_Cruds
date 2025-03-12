@@ -54,8 +54,10 @@ This project uses**SQLite** as the default database, which is lightweight and fi
 **Django:** 
 
 `python manage.py runserver`
+
 **Fast API:** 
 `uvicorn main:app --reload`
+
 **Flask:**
 `flask run`
 ## Usage
