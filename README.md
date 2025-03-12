@@ -2,7 +2,7 @@
 This is a simple application using Django, Fast API, and Flask to manage a list of "To-do tasks." It demonstrates basic CRUD (Create, Read, Update, Delete) operations with Bootstrap 5 styling.
 
 ## Features
-- List alltasks in a table format.
+- List all tasks in a table format.
 - Add new books using a form on a separate page.
 - Edit and update existing books.
 - Delete books with a confirmation alert.
