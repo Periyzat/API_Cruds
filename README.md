@@ -8,19 +8,19 @@ This is a simple application using Django, Fast API, and Flask to manage a list 
 - Delete tasks with a confirmation alert.
 - Styled with Bootstrap 5 for a responsive and clean UI.
 ## Requirements
-- Python 3.x
-  **Django:**
-- Django
-- django-bootstrap-v5
-  **Fast API:**
-- FastAPI
-- Uvicorn
-- SQLAlchemy
-- Jinja2 (for HTML templating)
-  **Flask:** 
-- Flask
-- Flask-SQLAlchemy
-- Bootstrap 5 (via CDN)
+ - Python 3.x
+- **Django:**
+ - Django
+ - django-bootstrap-v5
+- **Fast API:**
+ - FastAPI
+ - Uvicorn
+ - SQLAlchemy
+ - Jinja2 (for HTML templating)
+- **Flask:** 
+ - Flask
+ - Flask-SQLAlchemy
+ - Bootstrap 5 (via CDN)
 ## Database
 These project uses **SQLite** as the default database. SQLite is a lightweight, file-based database suitable for development and testing environments.
 - **Django** sets up automatically when you run migrations. By default, Django creates an SQLite database file named db.sqlite3 in the project directory.
