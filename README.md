@@ -8,8 +8,9 @@ A simple task management application using Django, FastAPI, and Flask to demonst
 - Styled with Bootstrap 5 for a responsive and clean UI.
 ## Requirements
 **1.Django:**
- * Django
- * django-bootstrap-v5
+ - Django
+ - django-bootstrap-v5
+   
 **2.Fast API:**
  - FastAPI
  - Uvicorn
