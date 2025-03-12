@@ -21,9 +21,11 @@ A simple task management application using Django, FastAPI, and Flask to demonst
  - Flask
  - Flask-SQLAlchemy
  - Bootstrap 5 (via CDN)
+   
 ## Installation & Setup
 ### Prerequisites
  Ensure you have **Python 3.x** installed on your system.
+ 
 ### Clone the repository
 ```
 git clone https://github.com/Periyzat/API_Cruds.git
@@ -56,9 +58,11 @@ This project uses**SQLite** as the default database, which is lightweight and fi
 `python manage.py runserver`
 
 **Fast API:** 
+
 `uvicorn main:app --reload`
 
 **Flask:**
+
 `flask run`
 ## Usage
 - Open the browser and navigate to the corresponding localhost address.
