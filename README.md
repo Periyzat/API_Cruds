@@ -7,20 +7,20 @@ A simple task management application using Django, FastAPI, and Flask to demonst
 - Delete tasks with a confirmation alert.
 - Styled with Bootstrap 5 for a responsive and clean UI.
 ## Requirements
-**1.Django:**
- - Django
- - django-bootstrap-v5
-   
-**2.Fast API:**
- - FastAPI
- - Uvicorn
- - SQLAlchemy
- - Jinja2 (for HTML templating)
+### 1. Django  
+- `django`  
+- `django-bootstrap-v5`  
 
-**3.Flask:** 
- - Flask
- - Flask-SQLAlchemy
- - Bootstrap 5 (via CDN)
+### 2. FastAPI  
+- `fastapi`  
+- `uvicorn`  
+- `sqlalchemy`  
+- `jinja2` (for HTML templating)  
+
+### 3. Flask  
+- `flask`  
+- `flask-sqlalchemy`  
+- Bootstrap 5 (via CDN)  
    
 ## Installation & Setup
 ### Prerequisites
