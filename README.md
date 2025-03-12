@@ -1,6 +1,5 @@
 #  "To-do tasks"  App
 A simple task management application using Django, FastAPI, and Flask to demonstrate basic CRUD (Create, Read, Update, Delete) operations. The app features a clean and responsive UI styled with Bootstrap 5.
-
 ## Features
 - List all tasks in a table format.
 - Add new tasks using a form on a separate page.
@@ -11,11 +10,13 @@ A simple task management application using Django, FastAPI, and Flask to demonst
 **1.Django:**
  - Django
  - django-bootstrap-v5
+   
 **2.Fast API:**
  - FastAPI
  - Uvicorn
  - SQLAlchemy
  - Jinja2 (for HTML templating)
+   
 **3.Flask:** 
  - Flask
  - Flask-SQLAlchemy
