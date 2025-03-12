@@ -35,16 +35,15 @@ source .venv/bin/activate (On Windows use .venv\Scripts\activate)
 ```
 ### Install the dependencies
 For Django:
-`pip install django django-bootstrap-v5`
- 
+			`pip install django django-bootstrap-v5` 
 For Fast API: 
-`pip install fastapi uvicorn sqlalchemy jinja2`
-
+		`pip install fastapi uvicorn sqlalchemy jinja2`
 For Flask:
-`pip install flask flask-sqlalchemy`
+		`pip install flask flask-sqlalchemy`
 ## Database Configuration
 This project uses**SQLite** as the default database, which is lightweight and file-based, making it ideal for development and testing environments.
 - **Django:** Automatically sets up an SQLite database `(db.sqlite3)` when you run migrations.
+
   `python manage.py migrate`
 - **Fast API:** Creates an SQLite database file `(tasks.db)` when you run the application.
 - **Flask:** Automatically generates an SQLite database `(db.sqlite3)` when you run the application.
